@@ -1,6 +1,13 @@
 # EddyServer
 Sample Web Application for Eddy Quicksall
 
+Step-by-step instructions:
+--------------------------
+
+**Node**
+    -- Install Node.js (version 8.9.0)
+    https://nodejs.org/en/download/
+
 **Git Respository**
     --  Setup a project space in GitHub
     1) https://guides.github.com/activities/hello-world/
@@ -16,6 +23,7 @@ Sample Web Application for Eddy Quicksall
         git config --global user.name "Eddy Quicksall"
     4) Run:
        git clone https://github.com/venkrith/EddyServer.git
-
-**Node**
-    -- Install Node.js
+       cd EddyServer/
+       npm install
+       set DEBUG=EddyServer:* && npm run-script devstart
+    5) Visit http://localhost:3000 on your favorite browswer
