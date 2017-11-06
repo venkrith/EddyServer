@@ -11,7 +11,10 @@ Sample Web Application for Eddy Quicksall
     --  Copy the sample EddyServer from GitHub
     1) Open GitBash (Start -> Program Files ->  Git -> Git Base)
     2) Change directory to your project workspace
-    3) Run:
+    3) Configure your Git profile (one-time)
+        git config --global user.email "Eddy@Quicksall.com"
+        git config --global user.name "Eddy Quicksall"
+    4) Run:
        git clone https://github.com/venkrith/EddyServer.git
 
 **Node**
